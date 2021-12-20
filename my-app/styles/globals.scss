@@ -1,0 +1,49 @@
+@import "../styles/design_tokens/typography.scss";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  @include H1;
+}
+
+h2 {
+  @include H2;
+}
+
+h3 {
+  @include H3;
+}
+
+.subtitle {
+  @include Subtitle;
+}
+
+p {
+  @include Body;
+}
+
+.highlight {
+  @include Body-highlight;
+}
+
+.small_text {
+  @include Small-text;
+}
+
+.table_label {
+  @include Table-label;
+}

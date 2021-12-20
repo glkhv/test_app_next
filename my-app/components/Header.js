@@ -7,8 +7,8 @@ export default function ({title, subtitle, button, button_link}) {
             <div className='row'>
                 <div className='column-9'>
                     <div className={styles.title}>
-                        <h1 className={styles.h1}>{title}</h1>
-                        <p className={styles.p}>{subtitle}</p>
+                        <h1>{title}</h1>
+                        <p className="subtitle">{subtitle}</p>
                     </div>
                 </div>
                 <div className='column-3'>

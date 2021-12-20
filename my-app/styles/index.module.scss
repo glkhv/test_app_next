@@ -1,5 +1,6 @@
 @import "../styles/design_tokens/colors.scss";
 @import "../styles/design_tokens/typography.scss";
+@import "../styles/design_tokens/shadows_and_radius.scss";
 
 .container {
     display: flex;
@@ -11,13 +12,25 @@
     background-color: $neutral0;
     padding: 1em;
     text-align: center;
-    height: 585px;
+    height: 292px;
+    margin-bottom: 16px;
+    padding: 24px 32px 24px 32px;
+    @include Radius;
+    @include Shadow-table-filter;
 }
 
 .h1 {
     @include H1;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.h2 {
+    @include H2;
+}
+
+.h3 {
+    @include H3;
 }
 
 .nav {

@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '../styles/globals.scss'
 import '../styles/design_tokens/grid.scss'
 
 function MyApp({ Component, pageProps }) {
