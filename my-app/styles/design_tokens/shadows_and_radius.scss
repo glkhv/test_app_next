@@ -1,0 +1,11 @@
+@mixin Shadow-popup {
+    box-shadow: 0px 2px 15px rgba(33, 33, 52, 0.1);
+}
+
+@mixin Shadow-table-filter {
+    box-shadow: 0px 1px 4px rgba(33, 33, 52, 0.1);
+}
+
+@mixin Radius {
+    border-radius: 4px;
+}

@@ -1,0 +1,40 @@
+@import "../styles/design_tokens/colors.scss";
+@import "../styles/design_tokens/typography.scss";
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid_example {
+    display: block;
+    background-color: $neutral0;
+    padding: 1em;
+    text-align: center;
+    height: 585px;
+}
+
+.h1 {
+    @include H1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav {
+    background-color: $neutral0;
+    height: 100vh;
+    width: 64px;
+}
+
+.subnav {
+    background-color: $neutral100;
+    border: 1px solid $neutral200;
+    height: 100vh;
+    width: 231px;
+}
+
+.content {
+    background-color: $neutral100;
+    height: 100vh;
+    flex: auto;
+}

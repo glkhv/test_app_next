@@ -1,0 +1,32 @@
+@import "../styles/design_tokens/colors.scss";
+@import "../styles/design_tokens/typography";
+@import "../styles/design_tokens/shadows_and_radius";
+
+.button {
+    @include Button-text;
+    @include Radius;
+    background-color: $primary600;
+    padding: 10px 16px 10px 16px;
+    color: $neutral0;
+    border: none;
+
+    &:hover {
+        background-color: $primary500;
+    }
+
+    &:active {
+        background-color: $primary700;
+    }
+
+    &:focus {
+        outline: 4px solid 4px;
+        outline-offset: 4px;
+        outline-color: $primary700;
+    }
+
+    &:disabled {
+        background-color: $neutral150;
+        border: 1px solid $neutral200;
+        color: $neutral600;
+    }
+}

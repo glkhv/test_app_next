@@ -1,0 +1,24 @@
+@import 'design_tokens/typography';
+
+.container {
+    padding-top: 36px;
+    padding-bottom: 40px;
+}
+
+.h1 {
+    @include H1;
+}
+
+.p {
+    @include Subtitle;
+}
+
+.title {
+    float: left;
+    flex-direction: column;
+}
+
+.button {   
+    float: right;
+    margin-top: 4px;
+}
